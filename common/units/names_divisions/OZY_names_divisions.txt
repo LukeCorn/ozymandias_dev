@@ -1,0 +1,77 @@
+﻿OZY_Inf_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { OZY }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Highlander-Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst King's Own Division" }
+		2 = { "%dnd Royal Scots Division" }
+		3 = { "%drd Highlander-Division" }
+		4 = { "%dth Highlander-Division" }
+		5 = { "%dth Highlander-Division" }
+		6 = { "%dth Highlander-Division" }
+		7 = { "%dth Highlander-Division" }
+		8 = { "%dth Highlander-Division" }
+		9 = { "%dth Highlander-Division" }
+		10 = { "%dth Highlander-Division" }
+		11 = { "%dth Highlander-Division" }
+		12 = { "%dth Highlander-Division" }
+		13 = { "%dth Highlander-Division" }
+		14 = { "%dth Highlander-Division" }
+		15 = { "%dth Highlander-Division" }
+		16 = { "%dth Highlander-Division" }
+		17 = { "%dth Highlander-Division" }
+		18 = { "%dth Highlander-Division" }
+		19 = { "%dth Highlander-Division" }
+		20 = { "%dth Highlander-Division" }
+		21 = { "%dth Highlander-Division" }
+		22 = { "%dth Highlander-Division" }
+		23 = { "%dth Highlander-Division" }
+		24 = { "%dth Highlander-Division" }
+		25 = { "%dth Highlander-Division" }
+			}
+}
+
+OZY_Gar_01 = 
+{
+	name = "Lowlander-Divisions"
+
+	for_countries = { OZY }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { OZY_INF_01 }
+
+	fallback_name = "%d Lowlander Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		26 = { "Alex White Militia" }			
+		27 = { "CT'S Flemish Volunteers" }
+		28 = { "Lowland Cavaliers" }
+		29 = { "Royal Ayshire Rifles" }
+		30 = { "%dth Lowlander Division" }					
+		31 = { "%dth Lowlander Division" }
+		32 = { "%dth Lowlander Division" }
+		33 = { "%dth Lowlander Division" }
+		34 = { "%dth Lowlander Division" }
+		35 = { "%dth Lowlander Division" }
+		36 = { "%dth Lowlander Division" }
+		37 = { "%dth Lowlander Division" }
+		38 = { "%dth Lowlander Division" }
+		

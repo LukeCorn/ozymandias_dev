@@ -1,0 +1,70 @@
+﻿add_namespace = ozymandias
+
+country_event = {
+	id = ozymandias.1
+	title = ozymandias.1.t
+	desc = ozymandias.1.d
+	picture = GFX_report_event_fascist_gathering
+	
+	is_triggered_only = no
+
+	trigger = {
+		tag = OZY
+		AND = {
+		date > 1936.2.1
+		}
+
+	}
+
+	mean_time_to_happen = {days = 7}
+	
+	option = { 
+		name = ozymandias.1.a
+		ai_chance = { factor = 99 }
+		add_political_power = 50
+		declare_war_on = {
+		target = ENG
+		type = annex_everything
+		}
+		
+		
+	}
+	option = { 
+		name = ozymandias.1.b
+		ai_chance = { factor = 05 }
+		add_political_power = -50
+	}
+}
+
+#Eng event
+
+country_event = {
+	id = ozymandias.2
+	title = ozymandias.2.t
+	desc = ozymandias.2.d
+	picture = GFX_report_event_fascist_militia
+	
+	is_triggered_only = no
+
+	fire_only_once = yes 
+
+	trigger = {
+		tag = ENG
+		AND = {
+		date < 1937.1.1
+		AND = {
+		ENG = {has_defensive_war_with = OZY} }
+		
+		}
+
+	}
+
+
+	
+	option = { 
+		name = ozymandias.2.a
+		ai_chance = { factor = 100 }
+		
+		}
+		
+}

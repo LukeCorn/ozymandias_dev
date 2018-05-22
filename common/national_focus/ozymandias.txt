@@ -1,0 +1,86 @@
+focus_tree = {
+	id = ozymandias_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			tag = OZY
+		}
+	}
+	
+
+	focus = {
+		id = OZY_annex_northern_ireland
+		icon = GFX_goal_generic_political_pressure
+		#text = extra_tech_slot
+		x = 2
+		y = 0
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			OZY =
+			 {transfer_state = 119
+			 }
+		}
+	}
+
+	#
+
+		focus = {
+		id = OZY_reclaim_the_birthright
+		icon = GFX_goal_generic_political_pressure
+		#text = extra_tech_slot
+		prerequisite = { focus = OZY_annex_northern_ireland }
+		mutually_exclusive = { focus = OZY_claim_Ozymandian_legacy }
+		available = {
+			date > 1936.6.1
+			}
+		x = 0
+		y = 2
+		#relative_position_id = OZY_annex_northern_ireland 
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			OZY =
+			 {add_war_support = 0.05
+			 }
+		}
+	}
+
+	#
+
+		focus = {
+		id = OZY_claim_Ozymandian_legacy
+		icon = GFX_goal_generic_political_pressure
+		#text = extra_tech_slot
+		prerequisite = { focus = OZY_annex_northern_ireland }
+		mutually_exclusive = { focus = OZY_reclaim_the_birthright }
+		x = 3
+		y = 2
+		#relative_position_id = OZY_annex_northern_ireland 
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			OZY =
+			 {add_war_support = 0.05
+			 }
+		}
+	}

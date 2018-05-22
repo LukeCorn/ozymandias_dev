@@ -1,0 +1,160 @@
+﻿division_template = {
+	name = "Highlander-Division"
+
+	division_names_group = OZY_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Lowlander-Division"
+	division_names_group = OZY_Gar_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+    division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6300
+		division_template = "Highlander-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 200
+		division_template = "Highlander-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 9392
+		division_template = "Highlander-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 3273
+		division_template = "Highlander-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 11064
+		division_template = "Highlander-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 200
+		division_template = "Highlander-Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 6300
+		division_template = "Highlander-Division"
+		start_experience_factor = 0.3
+	}	
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 26
+	}
+		location = 6300
+		division_template = "Lowlander-Division"
+		start_experience_factor = 0.2
+	}
+		
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 27
+	}
+		location = 6300
+		division_template = "Lowlander-Division"
+		start_experience_factor = 0.2
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 28
+	}
+		location = 6300
+		division_template = "Lowlander-Division"
+		start_experience_factor = 0.2
+	}
+		
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 29
+	}
+		location = 6300
+		division_template = "Lowlander-Division"
+		start_experience_factor = 0.2
+	}
+		
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 30
+	}
+		location = 6300
+		division_template = "Lowlander-Division"
+		start_experience_factor = 0.2
+	}	
+	
+}	
