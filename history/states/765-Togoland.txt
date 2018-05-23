@@ -1,0 +1,22 @@
+
+state={
+	id=765
+	name="STATE_765" # German Togoland
+	manpower = 1034450
+	
+	state_category = rural
+	
+	history={
+		owner = GER
+		victory_points = {
+			1951 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1951 2001  12843 
+	}
+}
