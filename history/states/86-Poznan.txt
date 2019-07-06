@@ -8,7 +8,7 @@ state={
 	history={
 		owner = GER
 		victory_points = {
-			6558 5
+			6558 10
 		}
 		buildings = {
 			infrastructure = 6
@@ -27,9 +27,11 @@ state={
 			}
 			air_base = 3
 		}
+		add_core_of = POL
 		add_core_of = GER
-		add_claim_by = POL
-		
+		1938.3.12 = {
+			add_claim_by = GER
+		}
 	}
 
 	provinces={

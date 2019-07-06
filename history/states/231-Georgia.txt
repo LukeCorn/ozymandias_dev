@@ -8,7 +8,7 @@ state={
 			1599 5 
 		}
 		victory_points = {
-			3653 10 
+			3653 3 
 		}
 		buildings = {
 			infrastructure = 3
@@ -23,7 +23,13 @@ state={
 		}
 		
 		add_core_of = GEO
-		
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+
+			}
+
+		}
 
 	}
 

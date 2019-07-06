@@ -11,12 +11,15 @@ state={
 	}
 
 	history={
+		victory_points = {
+			11598 1
+		}
 		owner = AUS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_claim_by = ITA
+		add_core_of = ITA
 		add_core_of = AUS
 	}
 
